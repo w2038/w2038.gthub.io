@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/site.css">
+    <link rel="stylesheet" href="/css/rodape.css">
+
+    <style>
+        #campo_nome {
+            color: coral;
+
+
+        }
+
+        label{
+            display: inline-block;
+            width: 100px;
+            height: 30px;
+        }
+
+        #campo_idade {
+            color: cornflowerblue;
+            width: 300px;
+        }
+
+        .formulario {
+            border: 1px dashed black;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <h1 style="color: chartreuse;">Contato</h1>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="cv.html">Curriculo</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+
+    <h2>Estou a disposição informe os seus dados</h2>
+
+
+
+    <article>
+        <div class="folrmulario">
+            <div id="campo_nome">
+                <form action="mailto:rubemoliota@gmail.com?subject=Olá" method="POST" enctype="text/plain">
+                    <label id="campo_nome" for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome do visitante" placeholder="Informe o seu nome">
+            </div>
+
+            <div>
+                <label for="email">Email</label>
+                <input class="campo" type="email" id="email" name="e-mail do visitante" placeholder="fulano@gmail.com">
+            </div>
+
+            <div id="idade">
+                <label for="idade">Idade</label>
+                <input type="number" id="idade" name="idade do visitante" placeholder="informe a didade">
+            </div>
+
+            <div>
+                <label for="mensagem">Mensagem</label>
+                <textarea name="mensagem do visitante" id="mensagem" cols="30" rows="10"></textarea>
+
+            </div>
+
+            <input class="limpar" type="reset" value="Limpar campos">
+            <input class="enviar" type="submit" value="Enviar">
+            </form>
+        </div>
+    </article>
+
+
+
+    <footer>
+        <hr>
+    </footer>
+
+</body>
+
+</html>

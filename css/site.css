@@ -1,0 +1,47 @@
+html{
+
+    margin: 100px;
+    margin-right: 100px;
+    background-color: rgb(198, 227, 253);
+}
+body{
+
+    background-color: white;
+    padding: 10px;
+    border-top-left-radius: 37px;
+    border-bottom-right-radius: 37px;
+}
+
+article{
+
+    min-height: 400px;
+}
+
+nav ul{
+
+    list-style: none;
+    background-color: rgb(121, 190, 255);
+    padding: 16px;
+    border-radius: 45px;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 32px;
+
+}
+
+nav ul li :hover{
+    
+    background-color: rgb(255, 255, 255);
+    color: blue;
+
+}
+
+nav ul li a{
+    border: 1px solid black;
+    padding: 8px;
+    border-radius: 16px;
+    text-decoration: none;
+    color: rgb(253, 253, 253);
+}

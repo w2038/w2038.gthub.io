@@ -1,0 +1,8 @@
+footer{
+    
+}
+footer::after {
+
+    content: "Copyright Proway 2021";
+
+}
